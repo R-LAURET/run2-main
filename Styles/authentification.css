@@ -1,0 +1,123 @@
+.conteneur-connexion{
+    width: 100vw;
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formulaire-conteneur-connexion {
+    width: 25%;
+    height: 60%;
+    background-color: #ffffff; /* Fond blanc */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.connexion-form{
+    width: 100%;
+    height: auto;
+}
+h1 {
+    margin-bottom: 20px;
+}
+
+.error {
+    color: #ff0000; /* Rouge pour les messages d'erreur */
+    margin-bottom: 10px;
+}
+
+.formulaire {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: 400;
+}
+
+.formulaire input[type="email"],
+.formulaire input[type="password"],
+.formulaire input[type="submit"] {
+    width: 100%;
+    max-width: 300px; /* Largeur maximale des champs d'entrée */
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #000000; /* Bouton noir */
+    color: #ffffff; /* Texte blanc */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #333333; /* Noir légèrement plus foncé au survol */
+}
+/**********************formulair d'inscripton *******************************************************/
+.conteneur-inscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89vh;
+}
+
+.formulaire-conteneur-inscription {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulaire-conteneur-inscription h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.formulaire-inscription {
+    margin-bottom: 20px;
+}
+
+.formulaire-inscription label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.formulaire-inscription input[type="text"],
+.formulaire-inscription input[type="number"],
+.formulaire-inscription input[type="email"],
+.formulaire-inscription input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.formulaire-inscription input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.formulaire-inscription input[type="submit"]:hover {
+    background-color: #333;
+}
+
+
